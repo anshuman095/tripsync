@@ -27,8 +27,8 @@ public class Trip extends BaseEntity {
     @Column(nullable = false, length = 150)
     private String destination;
 
-    @Column(length = 1000)
-    private String description;
+//    @Column(length = 1000)
+//    private String description;
 
     @Column(name = "start_date", nullable = false)
     private LocalDate startDate;
